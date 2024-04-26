@@ -339,28 +339,40 @@ nav {
     h1 {
         font-size: 25px;
     }
-    .contenido-header>img {
+
+    .contenido-header {
+        width: 100%;
+        height: 560px;
+    }
+    .contenido-header > img {
         width: 120px;
         height: 120px;
-        animation: ease-in animacion 0,5s;
+        animation: ease-in animacion 0.5s;
         margin: 20px 0;
     }
+    .articulo, .experience, .certificate, .skills {
+        width: 90%;
+    }
+
     .skills {
         margin-bottom: 20px;
     }
+
     .articulo, .experience, .content-skills {
         margin-top: 20px;
     }
     .content-skills {
         margin-bottom: 20px;
     }
+
     .content-certificados {
         padding: 0;
         margin-bottom: 20px;
     }
-    .enlaces-header{
+
+    .enlaces-header {
         position: fixed;
-        background-color: #d03d3d;
+        background-color: #333;
         top: 0;
         right: 0;
         width: 100%;
@@ -368,16 +380,17 @@ nav {
         display: flex;
         align-items: center;
         flex-direction: column;
-        clip-path: circle(0.0% at 0 0);
+        clip-path: circle(0.0 at 0 0);
+
     }
 
-    .nav .hamburgueropen {
-        clip-path: circle(150.0% at 0 0);
+    .nav .hamburgueropen{
+        clip-path: circle(150% at 0 0);
     }
 
-    .nav .enlaces-header a{
+    .nav .enlaces-header a {
         color: #fff;
-        background-color: #cf6c6c;
+        background-color: #3779c5;
         text-transform: uppercase;
         font-weight: 800;
         margin-top: 20px;
@@ -386,11 +399,12 @@ nav {
     }
 
     .nav .enlaces-header a:hover {
-        color: #d03d3d;
+        color: var(--color);
         background-color: #fff;
     }
 
     .hamburguer {
         display: block;
     }
+
 }
