@@ -372,7 +372,7 @@ nav {
 
     .enlaces-header {
         position: fixed;
-        background-color: #333;
+        background-color: #d03d3d;
         top: 0;
         right: 0;
         width: 100%;
@@ -390,7 +390,7 @@ nav {
 
     .nav .enlaces-header a {
         color: #fff;
-        background-color: #3779c5;
+        background-color: #cf6c6c;
         text-transform: uppercase;
         font-weight: 800;
         margin-top: 20px;
