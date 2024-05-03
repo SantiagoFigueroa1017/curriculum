@@ -60,6 +60,10 @@ nav {
     border-radius: 10px;
 }
 
+a{
+    font-size: "";
+}
+
 .nav .enlaces-header a:hover {
     color: #FFF;
     background-color: #d03d3d;
@@ -80,7 +84,7 @@ nav {
 .hamburguer>i {
     font-size: 25px;
     line-height: 80px;
-    color: #d03d3d;
+    /* color: #d03d3d; */
 
 }
 
