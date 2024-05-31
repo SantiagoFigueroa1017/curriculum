@@ -1,10 +1,8 @@
 # CV - MAURI SANTIAGO FIGUEROA MACHADO
-Desarrollador de software orientado a la web, con facultades en frontend y backend, trabajo en equipo, diseño gráfico, liderazgo, resolución de problemas, organización, aprendizaje continuo, con experiencia en docencia universitaria y manejo de diferentes tecnologías de desarrollo.
-
+Desarrollador de software orientado a la web, con facultades en frontend y habilidades en Java
 # Educación:
 * Ingeniero de Sistemas - UFPSO
 * Especialista en Auditoría de Sistemas - UFPSO
-* Coaching Profesional - CIMA
 * Desarrollo de Aplicaciones Web 
 
-<img src="img/WilderDuarte.png" alt="Foto de Wilder" width="150px" height="150px"></img>
+<img src="img/perfil.png" alt="Foto de Santiago" width="150px" height="150px"></img>
