@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+    <!-- ESTILOS CSS -->
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            height: 600px;
+            width: 400px;
+            border-radius: 20px;
+            border: 2px solid gray;
+            box-shadow: 0 0 10px gray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ETIQUETAS HTML -->
+    <div class="container">
+        <div class="row">
+            <input type="text" id="caja_uno">
+            <input type="text" id="caja_dos">
+        </div>
+        <h3>ZONA DE IMPRESIÓN</h3>
+        <div id="print_name"></div>
+        <label id="cant"></label>
+        <div id="print"></div>
+        <button onclick="enviar()">ENVIAR</button>
+        <button id="btn_limpiar" onclick="limpiar()">LIMPIAR</button>
+    </div>
+
+
+
+    <!-- CODIGO DE JS -->
+    <script>
+
+        function load_page(){
+            let ocultar = document.getElementById("btn:limpiar").hidden = true;
+        }
+
+
+
+        function enviar(){
+            let caja_uno = document.getElementById("caja_uno").value.trim();
+            let caja_dos = document.getElementById("caja_dos").value.trim();
+            let concat = caja_uno + caja_dos;
+            
+            let cadena = "";
+            let number = 0;
+            for(let h = caja_uno; h <= caja_dos; h++){
+                if(h%2 == 0){
+                    cadena += h + " es par" + "\n";
+                }
+            }
+            
+            document.getElementById("print").innerText = cadena;
+
+            document.getElementById("print_name").innerText = caja_uno.toUpperCase() + " " + caja_dos.toUpperCase();
+            document.getElementById("cant").innerText = "Tiene " + concat.length + " caracteres"
+        }
+    </script>
+</body>
+</html>
